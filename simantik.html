@@ -20,30 +20,48 @@ header {
   text-align: center;
   font-size: 35px;
   color: black;
-  background-image: url("PETAINDONESIA.jpg");
+background-image: url("samudera.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
 }
+
 
 /* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 15%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
 }
 
 article {
   float: left;
   padding: 20px;
-  width: 85%;
+  width: 100%;
   background-color: #F0F8FF;
-  height: 300px; /* only for demonstration, should be removed */
+  height: 800px; /* only for demonstration, should be removed */
 }
 
 /* Clear floats after the columns */
@@ -56,7 +74,7 @@ section::after {
 /* Style the footer */
 footer {
   background-color: #000000;
-  padding: 10px;
+  padding: 1px;
   text-align: center;
   color: white;
 }
@@ -74,21 +92,25 @@ footer {
 
 
 <header>
-  <h2>INDONESIA</h2>
+  <h2>SAMUDERA</h2>
 </header>
 
 <section>
   <nav>
     <ul>
-      <li><a href="#">Jakarta</a></li>
-      <li><a href="#">Surabaya</a></li>
-      <li><a href="#">Bogor</a></li>
+      <li><a href="#">Samudera Antartika</a></li>
+      <li><a href="#">Samudera Pasiffik</a></li>
+      <li><a href="#">Samudera Hindia</a></li>
+      <li><a href="#">Samudera Atlantik</a></li>
+      <li><a href="#">Samudera Arktik</a></li>
     </ul>
   </nav>
   
   <article>
-    <h1>Indonesia</h1>
-    <p>Indonesia adalah negara kepulauan terbesar di dunia. Indonesia memiliki lebih dari 17.000 pulau, di mana hanya sekitar 7.000 pulau yang berpenghuni. Kalimantan, Jawa, Sulawesi, Sumatra dan Papua merupakan pulau utama di Indonesia. Selain itu Indonesia juga memiliki pulau-pulau kecil seperti Bali, Karimunjawa, Gili dan Lombok yang merupakan tujuan wisata lokal maupun internasional. Ibukota negara Indonesia adalah Jakarta, yang terletak di Pulau Jawa.[.</p>
+    <h1>Samudera</h1>
+    <img src="samudera1.JPG" alt="samudera">
+    <p>Samudera adalah hamparan air asin yang mengelilingi daratan atau benua. Hamparan air asin yang relatif sempit disebut laut. Samudra (juga dieja samudera) atau lautan (dari bahasa Sanskerta) adalah laut yang luas dan merupakan massa air asin yang sambung-menyambung meliputi permukaan bumi yang dibatasi oleh benua ataupun kepulauan yang besar.
+Cekungan samudera (ocean basin) adalah cekungan yang sangat besar dan dalam yang dipenuhi oleh air asin dan satu atau lebih sisinya dibatasi oleh benua. Laut (sea). Dalam penggunaan umum, kata laut (sea) dan samudera (ocean) sering dipakai bergantian sebagai sinonim. Di dalam oseanografi atau oseanologi, kedua kata itu memiliki perbedaan. Kata “laut” umumnya dipakai untuk menyebutkan kawasan perairan dangkal di tepi benua, seperti Laut Utara, Laut Cina Selatan dan Laut Arafura; massa air yang terkurung dan memiliki hubungan yang terbatas dengan samudera, seperti Laut Tengah, dan Laut Baltik; atau kawasan laut yang memiliki sifat fisik dan kimia tertentu, seperti Laut Merah, Laut Hitam, Laut Karibia, dan Laut Banda. Di samping itu, kata “laut”, kadang-kadang dipakai untuk menyebutkan nama danau seperti Laut Kaspi. Teluk (bay, gulf) adalah tubuh air yang relatif kecil yang tiga sisinya dibatasi oleh daratan. Teluk sering juga disebut sebagai Laut Setengah-tertutup (Semi-enclosed Sea). Estuari (estuary) adalah kawasan perairan muara sungai yang dipengaruhi oleh pasang surut dengan massa air yang memiliki salinitas lebih rendah daripada air laut dan lebih tinggi daripada air tawar.[.</p>
     
 
   </article>
